@@ -1,0 +1,42 @@
+const canvas = document.getElementById("jsCanvas");
+
+function onMouseMove(event){
+    const X = event.offsetX;
+    const Y = event.offsetY;
+}
+
+function onMouseDown(event){
+    console.log(event);
+}
+
+if(canvas){
+    canvas.addEventListener("mousemove", onMouseMove);
+    canvas.addEventListener("mousedown", onmousedown);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
