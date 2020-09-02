@@ -1,5 +1,6 @@
 const canvas = document.getElementById("jsCanvas");
 const ctx = canvas.getContext("2d");
+const canvas = documet.getElementById("jsColor");
 
 canvas.width = 500;
 canvas.height = 500;
@@ -39,6 +40,8 @@ if(canvas){
     canvas.addEventListener("mouseup", stopPainting);
     canvas.addEventListener("mouseleave", stopPainting);
 }
+
+
 
 
 
